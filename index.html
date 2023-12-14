@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="head">
+        <p class="count__c">
+          <span class="count questionNumber">1</span>/10
+          <img class="nextButton" id="nextButton" src="./icon/btn.png" alt="" />
+        </p>
+        <p>Проеції. Опитувальник самооцінки</p>
+      </div>
+      <p class="text"></p>
+      <div class="selection__line">
+        <div class="selection__item"><p>Майже ніколи</p></div>
+        <div class="selection__item"><p>Іноді</p></div>
+        <div class="selection__item"><p>Часто</p></div>
+        <div class="selection__item"><p>Майже завжди</p></div>
+      </div>
+      <div class="result"></div>
+    </div>
+
+    <div class="modal" id="myModal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img src="" id="modalImage" alt="Modal Image" />
+        <p id="modalText"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
